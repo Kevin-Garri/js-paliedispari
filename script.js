@@ -4,7 +4,6 @@ const parola = prompt('inserisci una parola');
 let palindroma = '';
 function reverse(palindroma) {
   for (let i = parola.length - 1; i >= 0; i--) {
-    palindroma += parola.at(i)
   }
   return palindroma
 }
